@@ -964,9 +964,9 @@
   </div>
 
   <script>
-    const MEMO_KEY = 'jobmemo_memos_v5';
-    const APP_THEME_KEY = 'jobmemo_theme_name_v5';
-    const CUSTOM_THEME_KEY = 'jobmemo_custom_theme_v5';
+    const MEMO_KEY = 'memovif_memos_v1';
+    const APP_THEME_KEY = 'memovif_theme_name_v1';
+    const CUSTOM_THEME_KEY = 'memovif_custom_theme_v1';
 
     const noteColors = ['#dbe9e2', '#ebe9d9', '#f0dde8', '#e6e0f4', '#dde7f5', '#e0f0ea'];
 
@@ -1578,7 +1578,7 @@
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = 'jobmemo-backup.txt';
+      link.download = 'memovif-backup.txt';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
